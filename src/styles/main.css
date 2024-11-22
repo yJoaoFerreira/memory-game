@@ -81,6 +81,7 @@ h2 {
     transition: 0.25s;
     transform: rotateY(0deg);
     backface-visibility: hidden;
+    opacity: 0.85; /*Apagar*/
 }
 
 .item.boxOpen {
@@ -90,4 +91,3 @@ h2 {
 .boxOpen::after, .boxMatch::after {
     transform: rotateY(180deg);
 }
-
