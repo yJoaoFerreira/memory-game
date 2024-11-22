@@ -52,7 +52,6 @@ h2 {
 .game {
     width: 430px;
     height: 430px;
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -81,7 +80,6 @@ h2 {
     transition: 0.25s;
     transform: rotateY(0deg);
     backface-visibility: hidden;
-    opacity: 0.85; /*Apagar*/
 }
 
 .item.boxOpen {
